@@ -8,6 +8,6 @@ mix.js('assets/js/controllers/appController.js', 'public/js')
     ])
     .options({
         postCss: [tailwindcss('tailwind.config.js')],
-    });
+    }).browserSync('https://travel.development.claude');
 mix.copy('assets/img', 'public/images')
 mix.copy('assets/img/colissend/favicon', 'public/images')

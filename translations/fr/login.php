@@ -2,14 +2,14 @@
 
 return [
 
-    'title' => 'Connexion',
+    'title' => 'Anmelden',
 
-    'heading' => 'Connectez-vous à votre compte',
+    'heading' => 'Melden Sie sich an.',
 
     'buttons' => [
 
         'submit' => [
-            'label' => 'Connexion',
+            'label' => 'Anmelden',
         ],
 
     ],
@@ -17,22 +17,22 @@ return [
     'fields' => [
 
         'email' => [
-            'label' => 'Adresse e-mail',
+            'label' => 'E-Mail-Adresse',
         ],
 
         'password' => [
-            'label' => 'Mot de passe',
+            'label' => 'Passwort',
         ],
 
         'remember' => [
-            'label' => 'Se souvenir de moi',
+            'label' => 'Angemeldet bleiben',
         ],
 
     ],
 
     'messages' => [
-        'failed' => 'Ces identifiants ne correspondent pas à nos enregistrements.',
-        'throttled' => 'Tentatives de connexion trop nombreuses. Veuillez essayer de nouveau dans :seconds secondes.',
+        'failed' => 'Diese Kombination aus Zugangsdaten wurde nicht in unserer Datenbank gefunden.',
+        'throttled' => 'Zu viele Loginversuche. Versuchen Sie es bitte in :seconds Sekunden nochmal.',
     ],
 
 ];

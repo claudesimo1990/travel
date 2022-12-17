@@ -15,8 +15,8 @@
                 <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div class="px-4 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
                         <div>
-                            <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">Avec Colissend</h1>
-                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">Faciliter vous la vente de vos kilos Et l'envoi de vos Colis en toute securité vers multiples destinations.</p>
+                            <h1 class="mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">@lang('app.header.title')</h1>
+                            <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">@lang('app.header.text')</p>
                         </div>
                     </div>
                     <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">

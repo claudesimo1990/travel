@@ -4,7 +4,8 @@
 
 @section('content')
 
-    <div class="sm:col-span-12 md:col-span-4 md:pb-32">
+    <div class="container mx-auto mt-16">
+        <div class="sm:col-span-12 md:col-span-4 md:pb-32">
         <div class="overflow-hidden bg-white shadow sm:rounded-lg">
             <div class="px-4 py-5 sm:px-6">
                 <div class="-ml-4 -mt-4 flex flex-wrap items-center justify-between justify-center sm:flex-nowrap py-4">
@@ -80,6 +81,7 @@
 {{--            </div>--}}
         </div>
 
+    </div>
     </div>
 
 @endsection

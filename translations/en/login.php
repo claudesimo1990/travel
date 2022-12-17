@@ -2,37 +2,41 @@
 
 return [
 
-    'title' => 'Login',
-
-    'heading' => 'Sign in to your account',
+    'title' => 'Anmelden',
+    'heading' => 'Melden Sie sich an',
 
     'buttons' => [
-
         'submit' => [
-            'label' => 'Sign in',
+            'label' => 'Anmelden',
         ],
 
+    ],
+
+    'social' => [
+      'or' => 'Or',
+      'facebook' => 'Continue with Facebook',
+      'google' => 'Continue with Google',
     ],
 
     'fields' => [
 
         'email' => [
-            'label' => 'Email address',
+            'label' => 'E-Mail-Adresse',
         ],
 
         'password' => [
-            'label' => 'Password',
+            'label' => 'Passwort',
         ],
 
         'remember' => [
-            'label' => 'Remember me',
+            'label' => 'Angemeldet bleiben',
         ],
 
     ],
 
     'messages' => [
-        'failed' => 'These credentials do not match our records.',
-        'throttled' => 'Too many login attempts. Please try again in :seconds seconds.',
+        'failed' => 'Diese Kombination aus Zugangsdaten wurde nicht in unserer Datenbank gefunden.',
+        'throttled' => 'Zu viele Loginversuche. Versuchen Sie es bitte in :seconds Sekunden nochmal.',
     ],
 
 ];

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -15,7 +16,7 @@ class LoginController extends Controller
 {
     public function form(): Factory|View|Application
     {
-        return view('auth.login');
+        return view('auth.login', ['user' => (new User())]);
 
     }
 

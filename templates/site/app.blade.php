@@ -11,18 +11,17 @@
     <div class="py-24 sm:py-32 lg:py-40  bg-white text-gray-900">
         <div class="relative mx-auto max-w-7xl">
             <div class="relative h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-                <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100" alt="">
+                <img class="h-full w-full object-cover" src="{{ asset('images/travel/people-travel.svg') }}" alt="">
             </div>
             <div class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
                 <div class="md:ml-auto md:w-1/2 md:pl-10">
-                    <h2 class="text-lg font-semibold">Award winning support</h2>
-                    <p class="mt-2 text-3xl font-bold sm:text-4xl">We’re here to help</p>
-                    <p class="mt-3 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>
+                    <h2 class="text-lg font-semibold">@lang('app.name')</h2>
+                    <p class="mt-2 text-3xl font-bold sm:text-4xl">@lang('app.home.about.title')</p>
+                    <p class="mt-3 text-lg">@lang('app.home.about.content')</p>
                     <div class="mt-8">
                         <div class="inline-flex rounded-md shadow">
                             <a href="#" class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50">
-                                Visit the help center
-                                <!-- Heroicon name: mini/arrow-top-right-on-square -->
+                                @lang('app.button.showMore')
                                 <svg class="-mr-1 ml-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clip-rule="evenodd" />
                                     <path fill-rule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clip-rule="evenodd" />
@@ -40,120 +39,23 @@
         </div>
         <div class="relative mx-auto max-w-7xl">
             <div class="text-center">
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">@lang('Latest Posts')</h2>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">@lang('app.post.latest')</h2>
             </div>
             <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <p class="text-sm font-medium text-indigo-600">
-                                <a href="#" class="hover:underline">Article</a>
-                            </p>
-                            <a href="#" class="mt-2 block">
-                                <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-                                <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>
-                            </a>
-                        </div>
-                        <div class="mt-6 flex items-center">
-                            <div class="flex-shrink-0">
-                                <a href="#">
-                                    <span class="sr-only">Roel Aufderehar</span>
-                                    <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                                </a>
-                            </div>
-                            <div class="ml-3">
-                                <p class="text-sm font-medium text-gray-900">
-                                    <a href="#" class="hover:underline">Roel Aufderehar</a>
-                                </p>
-                                <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-03-16">Mar 16, 2020</time>
-                                    <span aria-hidden="true">&middot;</span>
-                                    <span>6 min read</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <p class="text-sm font-medium text-indigo-600">
-                                <a href="#" class="hover:underline">Video</a>
-                            </p>
-                            <a href="#" class="mt-2 block">
-                                <p class="text-xl font-semibold text-gray-900">How to use search engine optimization to drive sales</p>
-                                <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
-                            </a>
-                        </div>
-                        <div class="mt-6 flex items-center">
-                            <div class="flex-shrink-0">
-                                <a href="#">
-                                    <span class="sr-only">Brenna Goyette</span>
-                                    <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                                </a>
-                            </div>
-                            <div class="ml-3">
-                                <p class="text-sm font-medium text-gray-900">
-                                    <a href="#" class="hover:underline">Brenna Goyette</a>
-                                </p>
-                                <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-03-10">Mar 10, 2020</time>
-                                    <span aria-hidden="true">&middot;</span>
-                                    <span>4 min read</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <p class="text-sm font-medium text-indigo-600">
-                                <a href="#" class="hover:underline">Case Study</a>
-                            </p>
-                            <a href="#" class="mt-2 block">
-                                <p class="text-xl font-semibold text-gray-900">Improve your customer experience</p>
-                                <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.</p>
-                            </a>
-                        </div>
-                        <div class="mt-6 flex items-center">
-                            <div class="flex-shrink-0">
-                                <a href="#">
-                                    <span class="sr-only">Daniela Metz</span>
-                                    <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                                </a>
-                            </div>
-                            <div class="ml-3">
-                                <p class="text-sm font-medium text-gray-900">
-                                    <a href="#" class="hover:underline">Daniela Metz</a>
-                                </p>
-                                <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-02-12">Feb 12, 2020</time>
-                                    <span aria-hidden="true">&middot;</span>
-                                    <span>11 min read</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @foreach($posts as $post)
+
+                    @include('includes.home-post', $post)
+
+                @endforeach
             </div>
         </div>
     </div>
     <div class="py-16 sm:py-0 lg:py-40 bg-white">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="sm:text-center">
-                <h2 class="text-lg font-semibold leading-8 text-indigo-600">Transactions</h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
-                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+                <h2 class="text-lg font-semibold leading-8 text-indigo-600">@lang('app.howItWork.subtitle')</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">@lang('app.howItWork.title')</p>
+                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">@lang('app.howItWork.text')</p>
             </div>
 
             <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none">

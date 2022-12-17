@@ -31,6 +31,10 @@ class User extends Authenticatable
         'password',
     ];
 
+    protected $appends = [
+        'avatar'
+    ];
+
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -43,7 +47,11 @@ class User extends Authenticatable
 
     public function getNameAttribute(): string
     {
-        return $this->attributes['firstname'] . ' ' . $this->attributes['lastname'];
+        if(isset($this->attributes['firstname']) && isset($this->attributes['lastname'])) {
+            return $this->attributes['firstname'] . ' ' . $this->attributes['lastname'] ?? '';
+        }
+
+        return '';
     }
 
     /**
@@ -55,7 +63,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function avatar(): string
+    public function getAvatarAttribute(): string
     {
         $name = Str::of(Filament::getUserName($this))
             ->trim()

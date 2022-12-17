@@ -18,13 +18,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $users = User::factory(1)->create([
-            'password' => Hash::make('password')
-        ]);
+        $users = User::factory(1)->create();
 
         Profile::factory(1)->create([
            'user_id' => User::factory(),
-           'avatar' => $users->avatar
+           'avatar' => $users->first()->avatar
         ]);
 
         $objects = TransportedObject::factory(4)->create();
